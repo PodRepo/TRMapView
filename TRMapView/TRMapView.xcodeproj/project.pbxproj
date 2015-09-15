@@ -55,6 +55,7 @@
 		C03A0EAF1BA7C5A400FDA18C /* RegionAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionAnnotationView.h; sourceTree = "<group>"; };
 		C03A0EB01BA7C5A400FDA18C /* RegionAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionAnnotationView.m; sourceTree = "<group>"; };
 		C03A0EB41BA7C5A400FDA18C /* MapView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MapView.bundle; sourceTree = "<group>"; };
+		C03A0EB61BA7E7ED00FDA18C /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 		D4A0516C95042EC502CE77E4 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +91,7 @@
 			children = (
 				C03A0E781BA7C3D100FDA18C /* TRMapView.podspec */,
 				C03A0EA41BA7C46000FDA18C /* Podfile */,
+				C03A0EB51BA7E7ED00FDA18C /* Framework */,
 				C03A0EA51BA7C5A400FDA18C /* Classes */,
 				C03A0EB31BA7C5A400FDA18C /* Resources */,
 				C03A0E7F1BA7C3DE00FDA18C /* Example */,
@@ -182,6 +184,15 @@
 			);
 			name = Resources;
 			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		C03A0EB51BA7E7ED00FDA18C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C03A0EB61BA7E7ED00FDA18C /* AMapSearchKit.framework */,
+			);
+			name = Framework;
+			path = ../Framework;
 			sourceTree = "<group>";
 		};
 		F54AD36F4F88FAB3CB9F0F1F /* Pods */ = {

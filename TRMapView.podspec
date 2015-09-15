@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #s.private_header_files = "Classes/TRVoice2Word/IATConfig.h"
   s.public_header_files = "Classes/MapView/MapView.h"
   s.resources = "Resources/*"
+  s.vendored_frameworks = "Framework/*.{framework}"
 
-#s.frameworks        = "SystemConfiguration"
-#s.library = 'stdc++', 'z'
+  s.frameworks        = "SystemConfiguration", "CoreTelephony", "Security"
+  s.library = 'stdc++.6.0.9', 'z'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -35,5 +36,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "AMapSearch", "~> 2.6.0"
+#s.dependency "AMapSearch", "~> 2.6.0"
 end
