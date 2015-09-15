@@ -44,7 +44,7 @@
 		C03A0E961BA7C3DE00FDA18C /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03A0E9B1BA7C3DE00FDA18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03A0E9C1BA7C3DE00FDA18C /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
-		C03A0EA41BA7C46000FDA18C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C03A0EA41BA7C46000FDA18C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C03A0EA71BA7C5A400FDA18C /* MapDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapDefine.h; sourceTree = "<group>"; };
 		C03A0EA91BA7C5A400FDA18C /* MapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
 		C03A0EAA1BA7C5A400FDA18C /* MapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
@@ -54,8 +54,8 @@
 		C03A0EAE1BA7C5A400FDA18C /* RegionAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionAnnotation.m; sourceTree = "<group>"; };
 		C03A0EAF1BA7C5A400FDA18C /* RegionAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionAnnotationView.h; sourceTree = "<group>"; };
 		C03A0EB01BA7C5A400FDA18C /* RegionAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionAnnotationView.m; sourceTree = "<group>"; };
-		C03A0EB41BA7C5A400FDA18C /* MapView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MapView.bundle; sourceTree = "<group>"; };
 		C03A0EB61BA7E7ED00FDA18C /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		C064BF3B1BA7F6D400B12EE8 /* MapView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MapView.bundle; sourceTree = "<group>"; };
 		D4A0516C95042EC502CE77E4 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +93,7 @@
 				C03A0EA41BA7C46000FDA18C /* Podfile */,
 				C03A0EB51BA7E7ED00FDA18C /* Framework */,
 				C03A0EA51BA7C5A400FDA18C /* Classes */,
-				C03A0EB31BA7C5A400FDA18C /* Resources */,
+				C064BF3A1BA7F6D400B12EE8 /* MapResources */,
 				C03A0E7F1BA7C3DE00FDA18C /* Example */,
 				C03A0E991BA7C3DE00FDA18C /* ExampleTests */,
 				C03A0E7E1BA7C3DE00FDA18C /* Products */,
@@ -177,15 +177,6 @@
 			path = MapView;
 			sourceTree = "<group>";
 		};
-		C03A0EB31BA7C5A400FDA18C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C03A0EB41BA7C5A400FDA18C /* MapView.bundle */,
-			);
-			name = Resources;
-			path = ../Resources;
-			sourceTree = "<group>";
-		};
 		C03A0EB51BA7E7ED00FDA18C /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +184,15 @@
 			);
 			name = Framework;
 			path = ../Framework;
+			sourceTree = "<group>";
+		};
+		C064BF3A1BA7F6D400B12EE8 /* MapResources */ = {
+			isa = PBXGroup;
+			children = (
+				C064BF3B1BA7F6D400B12EE8 /* MapView.bundle */,
+			);
+			name = MapResources;
+			path = ../MapResources;
 			sourceTree = "<group>";
 		};
 		F54AD36F4F88FAB3CB9F0F1F /* Pods */ = {

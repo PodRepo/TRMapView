@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRMapView"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "fork fro TRMapView"
 
   s.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
   #s.private_header_files = "Classes/TRVoice2Word/IATConfig.h"
   s.public_header_files = "Classes/MapView/{MapView,MapDefine}.h"
-  s.resources = "Resources/*"
+  s.resources = "MapResources/MapView.bundle"
   s.vendored_frameworks = "Framework/*.{framework}"
 
   s.frameworks        = "SystemConfiguration", "CoreTelephony", "Security"
