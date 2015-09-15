@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRMapView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "fork fro TRMapView"
 
   s.description  = <<-DESC
@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.public_header_files = "Classes/MapView/MapView.h"
   s.resources = "Resources/*"
 
-  s.frameworks        = "SystemConfiguration"
-  s.library = 'stdc++', 'z'
+#s.frameworks        = "SystemConfiguration"
+#s.library = 'stdc++', 'z'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 

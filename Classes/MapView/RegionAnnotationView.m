@@ -292,7 +292,7 @@
 // 获取指定最大宽度和字体大小的string的size
 - (CGSize)getSizeOfString:(NSString *)string maxWidth:(float)width withFontSize:(int)fontSize {
 	UIFont *font = [UIFont systemFontOfSize:fontSize];
-	CGSize size = [string sizeWithFont:font constrainedToSize:CGSizeMake(width, 10000.0f) lineBreakMode:NSLineBreakByWordWrapping];
+    CGSize size = [string sizeWithAttributes:@{NSFontAttributeName:font}];
 	return size;
 }
 //添加尖角图片
